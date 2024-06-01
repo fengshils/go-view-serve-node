@@ -3,6 +3,7 @@ const config = {
     secretKey: 'gVdS',
     uploadPath: 'upload',
     port: 3000,
+    dbClient: 'mysql',
     dbConnection: {
         host: '127.0.0.1',
         port: 3306,
